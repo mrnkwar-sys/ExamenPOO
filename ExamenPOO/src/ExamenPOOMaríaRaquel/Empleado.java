@@ -116,6 +116,11 @@ public class Empleado {
 		return valorFinal;
 	}
 	
+	/**
+	 * Muestra si el porcentaje de bonificacion ha superado el 15%
+	 * @param porcentajeBonificacion
+	 * @return true si es asi, false si no
+	 */
 	public boolean bonificacionSuperior(double porcentajeBonificacion) {
 		return (porcentajeBonificacion > 15);
 	}

@@ -118,6 +118,10 @@ public class ListadoEmpleados {
 		return sumaBonificaciones;
 	}
 	
+	/**
+	 * Muestra la lista de empleados cuyo porcentaje de bonificacion sea superior al 15%
+	 * @return Esa misma lista
+	 */
 	ArrayList <Empleado> listarEmpleadosAltoDesempeno(){
 		return listaEmpleadosAltoDesempeno;
 	}
